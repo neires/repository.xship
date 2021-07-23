@@ -3,7 +3,7 @@
 <addon id="plugin.video.xship" version="2021.07.23~nightly4" name="Xship" provider-name="Xship-Team">
     <requires>
         <import addon="script.module.requests"/>
-        <import addon="script.module.urlresolver"/>
+        <import addon="script.module.urlresolver" version="2021.01.01"/>
         <!-- for remote debug -->
         <import addon="script.module.pydevd" optional="true"/>
     </requires>
