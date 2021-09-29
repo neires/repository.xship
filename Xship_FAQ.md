@@ -1,6 +1,6 @@
 # Xship für Kodi -Deutsche Anleitung/ FAQ
 
-![Xship logo](https://raw.githubusercontent.com/watchone/repository.xship/repo/repository.xship/master/icon.png)
+![Xship logo](https://raw.githubusercontent.com/watchone/repository.xship/master/zips/repository.xship/icon.png)
 
 - [1. Allgemeines zum Addon](#1-allgemeines-zum-addon)
     - [1.1 Verfügbare Webseiten](#11-verfügbare-webseiten)
