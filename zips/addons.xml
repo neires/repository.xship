@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.xship" version="2021.07.23~nightly4" name="Xship" provider-name="Xship-Team">
+<addon id="plugin.video.xship" version="2021.09.29~nightly1" name="Xship" provider-name="Xship-Team">
     <requires>
         <import addon="script.module.requests"/>
         <import addon="script.module.urlresolver" version="2021.01.01"/>
