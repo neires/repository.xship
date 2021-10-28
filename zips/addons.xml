@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.xship" version="2021.09.29~nightly1" name="Xship" provider-name="Xship-Team">
+<addon id="plugin.video.xship" version="2021.10.28~nightly2" name="Xship" provider-name="Xship-Team">
     <requires>
         <import addon="script.module.requests"/>
         <import addon="script.module.urlresolver" version="2021.01.01"/>
@@ -64,7 +64,7 @@ Xship 2021.07.01
     </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="2021.10.23" provider-name="Resolver Team">
+<addon id="script.module.urlresolver" name="URLResolver" version="2021.10.25~nightly" provider-name="Resolver Team">
     <requires>
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
