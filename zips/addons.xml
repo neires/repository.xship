@@ -62,7 +62,7 @@ Xship 2021.07.01
     </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="2021.12.05~nightly" provider-name="Resolver Team">
+<addon id="script.module.urlresolver" name="URLResolver" version="2021.12.23" provider-name="Resolver Team">
     <requires>
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
