@@ -1,3 +1,6 @@
 [submodule "repo/plugin.video.xship"]
 	path = repo/plugin.video.xship
 	url = https://github.com/watchone/plugin.video.xship.git
+[submodule "repo/script.module.resolveurl"]
+	path = repo/script.module.resolveurl
+	url = https://github.com/jsergio123/script.module.resolveurl
