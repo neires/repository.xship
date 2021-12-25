@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.xship" name="xShip Repository" version="1.1" provider-name="Xship-Team">
+<addon id="repository.xship" name="xShip Repository" version="1.2" provider-name="Xship-Team">
     <extension point="xbmc.addon.repository" name="xShip Repository">
         <info compressed="false">https://raw.githubusercontent.com/watchone/repository.xship/master/zips/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/watchone/repository.xship/master/zips/addons.xml.md5</checksum>
