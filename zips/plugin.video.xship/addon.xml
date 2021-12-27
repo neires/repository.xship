@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.xship" version="2021.12.23~nightly1" name="Xship" provider-name="Xship-Team">
+<addon id="plugin.video.xship" version="2021.12.25~nightly1" name="Xship" provider-name="Xship-Team">
     <requires>
         <import addon="script.module.requests"/>
         <import addon="script.module.urlresolver" version="2021.01.01"/>
+        <import addon="script.module.resolveurl" version="5.1.54"/>
         <!-- for remote debug -->
         <import addon="script.module.pydevd" optional="true"/>
     </requires>
