@@ -1,7 +1,7 @@
 # repository.xship
 
 - Repository  Version 1.1.2
-- xShip       Version 2022.01.07
+- xShip       Version 2022.01.10
 - UrlResolver Version 2021.12.23
 - resolveUrl  Version 5.1.56
 
