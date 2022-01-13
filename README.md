@@ -1,7 +1,9 @@
-# repository.xship
+## Mit der xShip Version 2022.01.13 wird die Entwicklung durch Team xShip vorläufig Eingestellt!
+
+Wird ein Patch zu einer Seite eingereicht oder ein Scrapper zu einer neuen Seite so wird dies (insofern es sinnvoll ist) weiterhin eingepflegt.
+Fixes an Seiten bzw. neue Seiten am besten als Issues einreichen
 
 - Repository  Version 1.1.2
 - xShip       Version 2022.01.13
 - resolveUrl  Version 5.1.57
 
-Bei eventuellen Wünschen zu Erweiterungen bzw. Problemen muss hier auf Github ein Issues erstellt werden und das Team antwortet darauf. Bei Problemmeldungen unbedingt die Versionsnummer von xShip und Kodi sowie das benutzte Betriebssysten und Hardware mit angeben.
