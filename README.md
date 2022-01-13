@@ -1,4 +1,4 @@
-## Mit der xShip Version 2022.01.13 wird die Entwicklung durch Team xShip vorläufig Eingestellt!
+## Mit der xShip Version 2022.01.13 wird die Entwicklung durch Team xShip vorläufig eingestellt!
 
 Wird ein Patch zu einer Seite eingereicht oder ein Scrapper zu einer neuen Seite so wird dies (insofern es sinnvoll ist) weiterhin eingepflegt.
 Fixes an Seiten bzw. neue Seiten am besten als Issues einreichen
