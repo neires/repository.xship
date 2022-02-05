@@ -5,5 +5,5 @@ Fixes an Seiten bzw. neue Seiten am besten als Issues einreichen
 
 - Repository  Version 1.1.2
 - xShip       Version 2022.01.13
-- resolveUrl  Version 5.1.57
+- resolveUrl  Version 5.1.60
 
