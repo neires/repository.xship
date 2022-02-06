@@ -14,13 +14,13 @@
     - [2.4 Hosterwahl](#24-hosterwahl)
     - [2.5 Konten](#25-konten)
     - [2.6 Downloads](#26-downloads)
-    - [2.7 URL Resolver Konfiguration](#27-url-resolver-konfiguration)
+    - [2.7 Resolver Konfiguration](#27-resolver-konfiguration)
     - [2.8 Gesehen Status in Xship ](#28-gesehen-status-in-xship)
     - [2.9 Plugin Video Themoviedb Helper](#29-plugin-video-themoviedb-helper)
     
 - [3. Bekannte Probleme](#3-bekannte-probleme)
     - [3.1 Fehler bei der Installation](#31-fehler-bei-der-installation)
-    - [3.2 URL Resolver Fehler](#32-url-resolver-fehler)
+    - [3.2 Resolver Fehler](#32-resolver-fehler)
     - [3.3 Beobachtungen und Fehler im Betrieb](#33-beobachtungen-und-fehler-im-betrieb)
   
 - [4. Fehlerbericht über Log-Datei](#4-fehlerbericht-über-log-datei)
@@ -81,15 +81,17 @@ Die Funktion der folgenden Seiten ist auf Grund fehlender Entwickler nicht immer
 |:-------------- |:----------------- | 	
 |Alleserien 	 |alleserien.com     | 
 |FilmPalast      |filmpalast.to      | 
-|HDfilme         |hdfilme.cx         | 
-|HDStreams	 |hd-streams.org     | 
+|Kinofox         |kinofox.de	     |
 |Kinoger         |kinoger.to	     |
+|Kinomax         |kinomax.me	     |
 |Kinox		 |kinox.to	     |
 |KKiste	         |kkiste.movie 	     |   
 |Movie4k         |movie4k.one        | 
 |Movietown  	 |movietown.org      |
+|Netzkino	 |netzkino.de	     |
 |Serienstream	 |serienstream.to    | 
 |Streamworld	 |streamworld.in     |
+|XCine		 |xcine.me	     |
 
 Für die Verwendung von Serienstream.to, ist auf deren Homepage das Anlegen eines Benutzer Kontos erforderlich
 
@@ -133,11 +135,11 @@ Updates werden über den bekannten Weg verteilt
 
 Wollt Ihr nicht bis zu einem Update warten, kann in Xship die ~nightly Update Funktion verwendet werden
 
-**Es wird Jsergio als Quelle für den URLResolver verwendet**
+**Es wird Gujal00 als Quelle für den Resolver verwendet**
 
-Von dort beziehen auch wir die Informationen und aktualisieren, den URLResolver selbst
+Von dort beziehen auch wir die Informationen
 
-Xship und xStream verwenden den gleichen URLResolver
+Xship und xStream verwenden den gleichen Resolver
 
 **Installation erfolgt über das Kodi Menü:**
 
@@ -594,7 +596,7 @@ Serien & Filme werden jetzt im Kodi Menü Serien bzw. Filme angezeigt
 
 Solltet Ihr jetzt Eure Filme/Serien noch nicht sehen, dann das “Seitenmenü” (Optionen) öffnen und Bibliothek aktualisieren klicken, oder wie oben beschrieben
 
-## 2.7 URL Resolver Konfiguration
+## 2.7 Resolver Konfiguration
 
 Es besteht die Möglichkeit, in den Einstellungen des URL Resolvers die Priorität der Hoster festzulegen also welche Hoster als ersters angezeigt bzw. verwendet werden sollen.
 
@@ -602,11 +604,11 @@ Diese Einstellungen werden in der settings.xml gespeichert.
 
 Diese befindet sich hier und kann auch auf ein anderes System kopiert werden:
 
- ....kodi/userdata/addon_data/script.module.urlresolver
+ ....kodi/userdata/addon_data/script.module.resolveurl
 
 **Jedoch aufgrund der Arbeitsweise von Xship wird diese Einstellung im Xship Addon nicht unbedingt berücksichtigt**
 
-*Da Xship & Xstream den gleichen URL Resolver verwenden, hat diese Einstellung auch Auswirkung auf beide Addons!!*
+*Da Xship & Xstream den gleichen Resolver verwenden, hat diese Einstellung auch Auswirkung auf beide Addons!!*
 
 Xship probiert automatisch alle verfügbaren Hoster aus, bis ein Stream abgespielt werden kann
 
@@ -618,9 +620,9 @@ Diese kann unter “Resolver Settings” angepasst werden.
 
 Sind Eure Priorisierten (Lieblings) Hoster nicht nicht verfügbar, nimmt Xship den nächsten Hoster der funktioniert
 
-Den URL Resolver findet Ihr in Kodi:
+Den Resolver findet Ihr in Kodi:
 
-Optionen - Einstellungen - Addons - System Addons - Abhängigkeiten - URL Resolver:  Konfigurieren
+Optionen - Einstellungen - Addons - System Addons - Abhängigkeiten - ResolveUrl:  Konfigurieren
 
 
 ## 2.8 Gesehen Status in Xship
@@ -768,11 +770,11 @@ In diesem Fall die Installation wiederholen
 
 Auf Windows 10 eventuell "Als Administrator ausführen" zum Kodi Starten wählen
 
-## 3.2 URL Resolver Fehler
+## 3.2 Resolver Fehler
 
-Sollte dies der Fall sein, bitte den aktuellste Version des "URLResolver" über dier folgende Bezugsquellen beziehen:
+Sollte dies der Fall sein, bitte den aktuellste Version des "Resolver" über dier folgende Bezugsquellen beziehen:
 
-[Download](https://github.com/streamxstream/xStreamRepo/tree/master/script.module.urlresolver)
+[Download](https://github.com/streamxstream/xStreamRepo/tree/master/script.module.resolveurl)
 
 ## 3.3 Beobachtungen und Fehler im Betrieb
 
@@ -791,19 +793,19 @@ Wenn jedoch innerhalb kurzer Zeit zu viele Anfragen vom selben Benutzer kommen, 
 Später nocheinmal probieren und auf jeden Fall ein eigenes (Fake) Konto bei s.to ertsellen lösen diese Probleme
 
 
-**URL Resolver Einstellungen werden nach Update gelöscht**
+**Resolver Einstellungen werden nach Update gelöscht**
 
-Lösung: die Option *"Cache-Funktion benutzen"* ausgeschaltet, befindet sich in den URL Resolver Einstellungen
+Lösung: die Option *"Cache-Funktion benutzen"* ausgeschaltet, befindet sich in den Resolver Einstellungen
 
 Wenn das nicht helfen sollte, dann bitte wie folgt:
 
-Da nach einem URL Resolver Update die Einstellungen (settings) weg sind, solltet Ihr diese vor einem Update sichern, damit Ihr nicht alles neu einrichten müsst
+Da nach einem Resolver Update die Einstellungen (settings) weg sind, solltet Ihr diese vor einem Update sichern, damit Ihr nicht alles neu einrichten müsst
 
 Nach dem Update, dann wieder in das Verzeichnis einfügen
 
 Es ist nach dem URLResolver Update KEINE settings.xml vorhanden!!
 
-Ihr findet die settings.xml hier: ....kodi/userdata/addon_data/script.module.urlresolver
+Ihr findet die settings.xml hier: ....kodi/userdata/addon_data/script.module.resolveurl
 
 **Real Debrid (RD) Links werden mit VPN übersprungen/nicht angespielt**
 
